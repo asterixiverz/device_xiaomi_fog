@@ -2,13 +2,10 @@
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
 # Clone vendor tree
-git clone https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
+git clone -b fourteen https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-git clone --depth=1 -b reset https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
-
-# Clone hardware/xiaomi from PixelOS-AOSP
-git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
+git clone --depth=1 -b fog-oss https://github.com/asterixiverz/kernel_xiaomi_sm6225 kernel/xiaomi/fog
 
 # Kernel fixups
 cd kernel/xiaomi/fog
