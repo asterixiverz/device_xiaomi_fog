@@ -74,6 +74,9 @@ TARGET_USES_GRALLOC4 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
+# DT2W
+TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 

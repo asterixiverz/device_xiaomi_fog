@@ -368,7 +368,7 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor \
-    android.hardware.power-service.lineage-libperfmgr
+    power-libperfmgr
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
@@ -442,7 +442,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom-caf/bootctrl \
     hardware/qcom-caf/common/libqti-perfd-client \
-    hardware/lineage/interfaces/power-libperfmgr \
     hardware/xiaomi
 
 # Update engine
