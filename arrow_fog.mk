@@ -10,9 +10,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Arrow stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit from ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # ArrowOS Additional Flags
-DEVICE_MAINTAINER := Iverz
+DEVICE_MAINTAINER := Yuki
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
