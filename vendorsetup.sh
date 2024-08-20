@@ -32,5 +32,4 @@ git apply -v 0001-keyboards-make-KEY_HOME-override.patch
 cd ../..
 
 # ViperFX
-git clone --depth=1
-https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/viper4androidfx
+git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages/apps/viper4androidfx
