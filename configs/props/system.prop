@@ -7,6 +7,13 @@ vendor.bluetooth.soc=cherokee
 # Blur
 ro.launcher.blur.appLaunch=0
 
+# Battery Saving
+ro.vendor.use_data_netmgrd=true 
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Camera
 camera.disable_zsl_mode=true
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera,org.lineageos.aperture
