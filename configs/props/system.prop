@@ -64,7 +64,6 @@ ro.lmk.critical_upgrade=false
 ro.lmk.upgrade_pressure=40
 ro.lmk.filecache_min_kb=153600
 ro.lmk.thrashing_limit_decay=50
-ro.lmk.stall_limit_critical=40
 ro.lmk.psi_complete_stall_ms=120
 ro.lmk.psi_partial_stall_ms=50
 ro.lmk.use_minfree_levels=true
