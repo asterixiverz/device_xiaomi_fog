@@ -28,9 +28,6 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
-# Inherit from ViPER4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
 # API Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
