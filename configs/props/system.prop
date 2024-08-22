@@ -4,9 +4,6 @@ persist.sys.btstack.absvolfeature=false
 persist.vendor.bt.a2dp.absvolfeature=false
 vendor.bluetooth.soc=cherokee
 
-# Blur
-ro.launcher.blur.appLaunch=0
-
 # Battery Saving
 ro.vendor.use_data_netmgrd=true 
 ro.vold.umsdirtyratio=20 
