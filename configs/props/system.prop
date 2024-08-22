@@ -40,7 +40,7 @@ sys.fp.miui.token=0
 
 # Dexopt
 pm.dexopt.first-boot=quicken
-pm.dexopt.bg-dexopt=verify
+pm.dexopt.boot=verify
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
