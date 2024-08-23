@@ -111,6 +111,7 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 
 BOARD_KERNEL_CMDLINE += \
     androidboot.hardware=qcom \
+    androidboot.memcg=1 \
     androidboot.usbcontroller=4e00000.dwc3 \
     loop.max_part=7 \
     lpm_levels.sleep_disabled=1 \
