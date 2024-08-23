@@ -38,10 +38,6 @@ persist.dpm.feature=1
 # Fingerprint
 sys.fp.miui.token=0
 
-# Dexopt
-pm.dexopt.first-boot=quicken
-pm.dexopt.boot=verify
-
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
