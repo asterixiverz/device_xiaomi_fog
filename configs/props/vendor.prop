@@ -298,7 +298,7 @@ ro.soc.model=SM6225
 # Zygote
 zygote.critical_window.minute=10
 
-# ZRAM for fog
+# ZRAM for fog/wind/rain
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
