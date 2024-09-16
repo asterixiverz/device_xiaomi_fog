@@ -7,6 +7,7 @@ vendor.bluetooth.soc=cherokee
 # Camera
 camera.disable_zsl_mode=true
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera,org.lineageos.aperture
+persist.sys.cam.skip_detach_image=true
 
 # Charger
 ro.charger.disable_init_blank=true

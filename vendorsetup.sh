@@ -10,6 +10,9 @@ git clone --depth=1 -b 4.19 https://github.com/asterixiverz/kernel_xiaomi_fog-ms
 # Clone hardware/xiaomi from @asterixiverz (Forking from PixelOS-AOSP)
 git clone -b thirteen-aosp https://github.com/asterixiverz/hardware_xiaomi hardware/xiaomi
 
+# Clone vendor MIUI Camera
+git clone -b uvite-sm6225 https://gitlab.com/soverzion-hq/proprietary_vendor_xiaomi_camera vendor/xiaomi/camera
+
 # Clang Missing Fixups
 rm -rf prebuilts/clang/host/linux-x86/clang-r450784d
 git clone https://gitlab.com/tejas101k/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
