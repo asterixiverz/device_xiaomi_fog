@@ -118,6 +118,10 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/fog
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_LINUX_KERNEL_VERSION := 4.19
 
+# Kernel Clang Flags
+KERNEL_CC := CC=clang
+override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
+
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
